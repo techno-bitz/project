@@ -1,0 +1,4 @@
+output "ecs-public-ip" {
+    
+    value = aws_ecs_service.public_ip
+}
